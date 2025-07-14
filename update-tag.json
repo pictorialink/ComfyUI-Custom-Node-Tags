@@ -1,21 +1,71 @@
 {
-  "pictorialink/ComfyUI-Qwen-MPS": [ "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-cgem156": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-Easy-Use": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-Text-Translation": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-controlnet_aux": [ "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-efficiency-nodes": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-Custom-Scripts": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-mixlab-nodes": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-inpaint-nodes": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-LayerStyle": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-YOLO": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-Core-Node": [ "v1.0.3", "v1.0.2", "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-AdvancedLivePortrait": [ "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-lama-remover": [ "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-BiRefNet-Hugo": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-masquerade-nodes": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-mobilesam": [ "v1.0.1", "v1.0.0" ],
-  "pictorialink/ComfyUI-mediapipe": [ "v1.0.0" ],
-  "pictorialink/ComfyUI-static-resource": [ "v1.0.1", "v1.0.0" ]
+  "pictorialink/ComfyUI-Qwen-MPS": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-cgem156": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-Easy-Use": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-Text-Translation": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-controlnet_aux": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-efficiency-nodes": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-Custom-Scripts": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-mixlab-nodes": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-inpaint-nodes": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-LayerStyle": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-YOLO": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-Core-Node": [
+    "v1.0.3",
+    "v1.0.2",
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-AdvancedLivePortrait": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-lama-remover": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-BiRefNet-Hugo": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-masquerade-nodes": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-mobilesam": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-mediapipe": [
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-static-resource": [
+    "v1.0.1",
+    "v1.0.0"
+  ],
+  "pictorialink/ComfyUI-gpt-agent": [
+    "v1.0.1"
+  ]
 }
