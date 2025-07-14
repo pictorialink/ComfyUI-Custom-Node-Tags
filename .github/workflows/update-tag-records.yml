@@ -1,0 +1,42 @@
+name: Update Tag Records
+
+on:
+  repository_dispatch:
+    types: [project2_tag_created]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Get payload data
+        id: payload
+        run: |
+          echo "tag=${{ github.event.client_payload.tag }}" >> $GITHUB_OUTPUT
+          echo "sha=${{ github.event.client_payload.sha }}" >> $GITHUB_OUTPUT
+          echo "source_repo=${{ github.event.client_payload.source_repo }}" >> $GITHUB_OUTPUT
+
+      - name: Update tag records
+        run: |
+          PROJECT_NAME=${{ steps.payload.outputs.source_repo }}
+          
+          if [ ! -f update-tag.json ]; then
+            echo "{}" > update-tag.json
+          fi
+          
+          jq --arg name "$PROJECT_NAME" \
+            --arg tag "${{ steps.payload.outputs.tag }}" \
+            'if has($name) then .[$name] += [$tag] else .[$name] = [$tag] end' \
+            update-tag.json > tmp.json && mv tmp.json update-tag.json
+          
+          jq . update-tag.json > tmp.json && mv tmp.json update-tag.json
+          
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add update-tag.json
+          git commit -m "Add tag ${{ steps.payload.outputs.tag }} for $PROJECT_NAME to JSON record"
+          git push
