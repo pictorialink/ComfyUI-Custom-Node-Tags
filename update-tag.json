@@ -60,7 +60,8 @@
     "v1.0.0"
   ],
   "pictorialink/ComfyUI-mediapipe": [
-    "v1.0.0"
+    "v1.0.0",
+    "v1.0.3"
   ],
   "pictorialink/ComfyUI-static-resource": [
     "v1.0.1",
