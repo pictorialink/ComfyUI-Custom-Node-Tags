@@ -14,7 +14,8 @@
   ],
   "pictorialink/ComfyUI-controlnet_aux": [
     "v1.0.1",
-    "v1.0.0"
+    "v1.0.0",
+    "v1.0.3"
   ],
   "pictorialink/ComfyUI-efficiency-nodes": [
     "v1.0.0"
