@@ -67,5 +67,8 @@
   ],
   "pictorialink/ComfyUI-gpt-agent": [
     "v1.0.1"
+  ],
+  "pictorialink/ComfyUI-Qwen-CUDA": [
+    "v1.1.2"
   ]
 }
