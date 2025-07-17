@@ -74,5 +74,8 @@
   ],
   "pictorialink/ComfyUI-Qwen-CUDA": [
     "v1.1.2"
+  ],
+  "pictorialink/ComfyUI-Proxy": [
+    "v0.0.1"
   ]
 }
