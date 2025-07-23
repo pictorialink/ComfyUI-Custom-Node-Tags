@@ -81,5 +81,8 @@
   ],
   "pictorialink/ComfyUI-GGUF": [
     "v1.0.0"
+  ],
+  "pictorialink/Picto-workflow": [
+    "v1.0.2"
   ]
 }
