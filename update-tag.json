@@ -85,5 +85,8 @@
   "pictorialink/Picto-workflow": [
     "v1.0.2",
     "v1.0.3"
+  ],
+  "pictorialink/ComfyUI-Qwen": [
+    "v1.0.1"
   ]
 }
